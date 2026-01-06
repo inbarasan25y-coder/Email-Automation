@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
 
-"""
-Master Mailer Script (Multi-Format Edition)
-Multi-threaded email sender with random delays within batches.
-Supports 3 formatting options: Mixed Themes, Fixed Verdana, Plain Text
-Auto-blocks senders that hit daily limit to prevent account blocking.
-Respects unsubscribe requests - skips sending to opted-out recipients.
-"""
-
 import csv
 import smtplib
 import time
